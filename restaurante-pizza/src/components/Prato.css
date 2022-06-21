@@ -1,0 +1,21 @@
+.prato {
+    width: 280px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 8px;
+}
+
+.prato .imagem-container img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.imagem-container img {
+    height: 17rem;
+}
+
+.prato .conteudo {
+    padding: 8px;
+}
