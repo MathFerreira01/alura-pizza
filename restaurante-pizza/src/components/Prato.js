@@ -11,9 +11,7 @@ function Prato({ nome, preco, descricao, imagem }) {
         <p className="nome">
           <strong>{nome}</strong>
         </p>
-        <p className="descricao">
-          <strong>{descricao}</strong>
-        </p>
+        <p className="descricao">{descricao}</p>
         <p className="preco">
           <strong>R$ {preco}</strong>
         </p>
