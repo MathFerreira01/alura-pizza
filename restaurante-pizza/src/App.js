@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import logo from "./assets/logo.png";
-import banner from "./assets/banner.png";
+
 import "./App.css";
-import Prato from "./components/Prato";
+import Header from "./components/header/header";
+import Prato from "./components/Prato/Prato";
 
 function App() {
   const [pratos, setPratos] = useState([]);
@@ -17,14 +17,7 @@ function App() {
 
   return (
     <>
-      <header className="header">
-        <div className="banner-container">
-          <img src={banner} alt="Banner mostrando uma pizza" />
-        </div>
-        <div className="logo-container">
-          <img src={logo} alt="logo da Alura Pizza" />
-        </div>
-      </header>
+     <Header/>
       <main>
         <section className="cardapio">
           {pratos.map(prato => 

@@ -1,19 +1,5 @@
 html {
-    background: #292929;
-}
-
-.header {
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.banner-container img {
-    width: 100%;
-}
-
-.logo-container {
-    text-align: center;
+    background: #dad0ae;
 }
 
 .cardapio {
